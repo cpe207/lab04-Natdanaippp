@@ -1,6 +1,9 @@
 function typeChecker(a, b) {
     if (typeof a == "string" && typeof b == "number") {
-        return "Not MATCHED";
+        return "NOT MATCHED";
+    }
+    if (typeof a == "number" && typeof b == "string") {
+        return "NOT MATCHED";
     }
     if (typeof a == "string" && typeof b == "string") {
         return "I LOVE YOU";

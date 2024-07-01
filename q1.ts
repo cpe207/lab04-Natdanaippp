@@ -1,11 +1,11 @@
 function typeChecker(a:string|number, b:string|number){
   if(typeof a == "string"&& typeof b == "number")
   {
-    return "Not MATCHED";
+    return "NOT MATCHED";
   }
   if(typeof a == "number"&& typeof b == "string")
   {
-    return "Not MATCHED";
+    return "NOT MATCHED";
   }
   if(typeof a == "string"&& typeof b == "string")
   {
