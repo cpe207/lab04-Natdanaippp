@@ -1,5 +1,10 @@
-function arrayStringify(a) {
-  /* Your code here */
+function arrayStringify(a) :string { 
+  let f="";
+  let N=a[0].length;
+  for(let i=0;i<N;i++) {
+    f+=a[i];
+  }
+  return f;
 }
 
 const c1 = [1, 2, 3];

@@ -1,5 +1,14 @@
 function primeNumber(a) {
-  /* Your code here */
+  for(let i = 2;i<=a;i++){
+    if(i==a)
+    {
+      return "YES";
+    }
+    if(a%i ==0)
+      {
+        return "NO";
+      }
+  }
 }
 
 const d1 = 10;
